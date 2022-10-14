@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+
+    <style>
+        table thead {
+            background-color: #593D3B;
+            color: white;
+        }
+
+        table tr:nth-child(even) {
+            background-color: #C3A995;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <ul>
+                <li><a href="home.html" target="_blank">Página Principal</a></li>
+                <li><a href="sobre.html" target="_blank">Sobre a clínica</a></li>
+                <li><a href="horario.html" target="_blank">Horário de atendimento</a></li>
+                <li><a href="contato.html" target="_blank">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="./assets/horario.jpg" style="height: 150px; width: 100%;" alt="">
+            </div>
+
+            <div class="content">
+                <h1 style="color:rgb(27, 114, 114);">Horários de atendimento</h1>
+                <p>Em nosso quadro de especialistas, você encontra diversas especialidades: <b>Clínica geral</b>,
+                    <b>Psicologia</b>, <b>Pediatria</b> e <b>Oftalmologia</b>.
+
+                    <mark>Entre em contato para saber mais sobre os valores.</mark></p>
+
+                <div class="tabela">
+                    <table border="1" cellspacing="3px" cellpadding="3px" align="center">
+                        <thead>
+                            <tr>
+                                <th>Serviços</th>
+                                <th>Segunda a Sexta</th>
+                                <th>Sábado</th>
+                                <th>Feriados</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Clínica geral</td>
+                                <td>08h - 19h</td>
+                                <td>08h - 14h</td>
+                                <td>08h - 14h</td>
+                            </tr>
+                            <tr>
+                                <td>Psicologia</td>
+                                <td>08h - 19h</td>
+                                <td>08h - 14h</td>
+                                <td>08h - 14h</td>
+                            </tr>
+                            <tr>
+                                <td>Pediatria</td>
+                                <td>08h - 19h</td>
+                                <td>08h - 18h</td>
+                                <td>-</td>
+                            </tr>
+                            <tr>
+                                <td>Oftalmologia</td>
+                                <td>08h - 19h</td>
+                                <td>08h - 18h</td>
+                                <td>-</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+
+            </div>
+
+            <div class="footer">
+                <p>&#9742; <b>Telefone:</b> (12) 3456-7891 </p>
+                <p><b>Horário de atendimento:</b> segunda à sexta-feira, das 8h às 19h. <br>
+                    <small><i></i>Para sábados e feriados, consultar a página Horário de Atendimento.</small></i></p>
+                <p><b>Endereço:</b> R. da Figueira, 831 , 03102-010</p>
+                <p><strong>Mooca, São Paulo - SP</strong></p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -13,7 +13,7 @@ body {
     width: 1200px;
     display: flex;
     margin: 0 auto;
-    background-color: aquamarine;
+    background-color: #AB947E;
 }
 
 .main {
@@ -24,12 +24,12 @@ body {
 
 .menu {
     width: 15%;
-    background-color: aqua;
+    background-color: #6F5E53;
     padding: 10px 20px 0px;
 }
 
 .header {
-    background-color: rgb(5, 108, 108);
+    background-color: #AB947E;
     min-height: 150px;
 }
 
@@ -40,6 +40,6 @@ body {
 }
 
 .footer {
-    background-color: rgb(99, 56, 240);
+    background-color: #593D3B;
     min-height: 150px;
 }

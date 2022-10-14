@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+
+    <style>
+        .enviar {
+            background-color: green;
+            color: white;
+        }
+
+        .limpar {
+            background-color: red;
+            color: white;
+        }
+
+        .dados {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <ul>
+                <li><a href="home.html" target="_blank">Página Principal</a></li>
+                <li><a href="sobre.html" target="_blank">Sobre a clínica</a></li>
+                <li><a href="horario.html" target="_blank">Horário de atendimento</a></li>
+                <li><a href="contato.html" target="_blank">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="./assets/contato.jpg" style="width: 100%;" alt="">
+            </div>
+
+            <div class="content">
+                <h1 style="color:rgb(27, 114, 114);">Entre em contato!</h1>
+
+                <p>&#9742; <b>Telefones:</b> (12) 3456-7891 <small>(Celular/Whatsapp)</small> </p>
+                <p><b>Endereço:</b> R. da Figueira, 831 , 03102-010. Mooca, São Paulo - SP</p>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7106.845532144543!2d-46.63035173945139!3d-23.548832375328757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5905abf1f709%3A0xd875cb4fb219347c!2sHospital%20Sancta%20Maggiore!5e0!3m2!1spt-BR!2sbr!4v1665783341531!5m2!1spt-BR!2sbr"
+                    width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                <form clas="formulario" action="#" method="post">
+                    <fieldset>
+                        <legend>Envie uma mensagem preenchendo os dados abaixo:</legend>
+                        <div class="dados">
+                            <label>Nome: </label>
+                            <input type="text" id="nome">
+                        </div>
+                        <div class="dados">
+                            <label>E-mail: </label>
+                            <input type="email" id="email">
+                        </div>
+                        <div class="dados">
+                            <label>Assunto: </label>
+                            <input type="text" id="assunto">
+                        </div>
+                        <div class="dados">
+                            <label>Mensagem: </label>
+                            <textarea id="message" rows="3" cols="30" style="resize: none;"></textarea>
+                        </div>
+                        <button class="enviar" type="submit">Enviar</button>
+                        <button class="limpar" type="reset">Limpar</button>
+                    </fieldset>
+                </form>
+
+            </div>
+
+            <div class="footer">
+                <p>&#9742; <b>Telefone:</b> (12) 3456-7891 </p>
+                <p><b>Horário de atendimento:</b> segunda à sexta-feira, das 8h às 19h. <br>
+                    <small><i></i>Para sábados e feriados, consultar a página Horário de Atendimento.</small></i></p>
+                <p><b>Endereço:</b> R. da Figueira, 831 , 03102-010</p>
+                <p><strong>Mooca, São Paulo - SP</strong></p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

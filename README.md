@@ -2,7 +2,7 @@
 <h1 align="center"> Criando seu Primeiro Site Completo com HTML </h1>
 
 <h4 align="center"> 
-  <img src="https://img.shields.io/badge/Status:-Em%20andamento-yellow">
+  <img src="https://img.shields.io/badge/Status:-Conclu%C3%ADdo-green">
 </h4>
 
 
